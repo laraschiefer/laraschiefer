@@ -81,3 +81,158 @@ If you encounter problems, consider the following resources:
 * **General Troubleshooting**:
 
   * [MDN Web Docs](https://developer.mozilla.org/) – Reference for HTML, CSS, and JavaScript.
+
+## Vocabulary
+
+During the course you will encounter a lot of programming-specific language.  
+Here you can find definitions of the most important technical terms used in the wiki and in web development.
+
+### Development Environment
+
+**IDE (Integrated Development Environment)**  
+A software application that combines a code editor, terminal, and debugging tools in one place (e.g. VSCode).
+
+**Terminal / Console**  
+A text-based interface used to run commands.
+
+**Command**  
+A text instruction typed into the terminal.
+
+**Local**  
+Running something on your own computer.
+
+**Remote**  
+Running something on another server (e.g. GitHub, Vercel).
+
+---
+
+### Web Development
+
+**HTML (HyperText Markup Language)**  
+Defines the structure of a website.
+
+**CSS (Cascading Style Sheets)**  
+Controls the visual design of a website.
+
+**JavaScript (JS)**  
+Adds interactivity and logic to websites.
+
+**Live Server**  
+A VSCode extension that runs your site locally and reloads it automatically on changes.
+
+**Rendering**  
+The process of turning code into a visible website.
+
+**Assets**  
+Media files like images, fonts, or videos used in a project.
+
+**Module**  
+A separate piece of code that handles a specific task.
+
+---
+
+### Version Control (Git & GitHub)
+
+**Git**  
+A tool for tracking changes in code.
+
+**Repository (Repo)**  
+A project managed by Git.
+
+**Commit**  
+A saved version of your project.
+
+**Branch**  
+A parallel version of the project.
+
+**Fork**  
+Your own copy of another repository on GitHub.
+
+**Clone**  
+Download a repository to your computer.
+
+**Upstream**  
+The original repository you forked from.
+
+**Fetch**  
+Download updates from another repository.
+
+**Merge**  
+Combine changes from different sources.
+
+**Sync**  
+Update your fork with the original repository.
+
+---
+
+### Deployment & Hosting
+
+**Deploy**  
+Publish your website online.
+
+**Hosting**  
+A service that stores your website.
+
+**Server**  
+A computer that delivers your website to users.
+
+**Vercel**  
+A platform for hosting web projects.
+
+**Production**  
+The live, public version of your site.
+
+---
+
+### Command Line & Scripts
+
+**Shell Script (.sh)**  
+A file containing terminal commands.
+
+**Run / Execute**  
+Start a program or script.
+
+**Argument**  
+Extra information passed to a command.
+
+---
+
+### Project Structure
+
+**Index.html**  
+The main entry file of a website.
+
+**Source (src)**  
+Folder containing the main project files.
+
+**Root Directory**  
+The top-level folder of a project.
+
+**Generate**  
+Automatically create something (e.g. a file list).
+
+---
+
+### Collaboration
+
+**Pull Request (PR)**  
+A request to merge changes into a repository.
+
+**Conflict**  
+When changes cannot be merged automatically.
+
+**Issue**  
+A tracked problem or task.
+
+---
+
+### Debugging
+
+**Bug**  
+An error in the code.
+
+**Debugging**  
+Finding and fixing errors.
+
+**Documentation**  
+Official instructions for software and tools.
