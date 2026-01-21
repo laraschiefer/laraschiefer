@@ -127,3 +127,120 @@ body::before {
   pointer-events: none;
   z-index: -1;
 }
+
+/* ============================================
+   Alternative Theme: California Minimal
+   Early 2000s Tumblr-inspired aesthetic
+   ============================================ */
+
+body.theme-cali {
+  background: linear-gradient(135deg, #faf8f3 0%, #f5f0ea 50%, #ebe5dd 100%);
+  color: #4a4a4a;
+}
+
+body.theme-cali::before {
+  background-image: none;
+}
+
+body.theme-cali h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b7355;
+  text-shadow: none;
+  margin: var(--spacer-lg) 0;
+  animation: none;
+  font-family: 'Georgia', serif;
+}
+
+body.theme-cali h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #a89080;
+  text-shadow: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-left: 3px solid #d4a574;
+  padding-left: var(--spacer-sm);
+  margin: var(--spacer-lg) 0 var(--spacer-md) 0;
+  font-family: 'Georgia', serif;
+}
+
+body.theme-cali p,
+body.theme-cali .text {
+  color: #5a5a5a;
+  text-shadow: none;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-family: 'Georgia', serif;
+}
+
+body.theme-cali img {
+  border: 1px solid #d4c4b4;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  filter: none;
+  margin: var(--spacer-lg) 0;
+}
+
+body.theme-cali img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  filter: none;
+}
+
+body.theme-cali .time-stamp {
+  color: #a89080;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  margin: var(--spacer-md) 0 var(--spacer-md) 0;
+}
+
+body.theme-cali section {
+  background: rgba(255, 255, 255, 0.6);
+  padding: var(--spacer-md);
+  margin: var(--spacer-md) 0;
+  border-radius: 2px;
+  border: 1px solid rgba(212, 165, 116, 0.2);
+}
+
+body.theme-cali .folder-group {
+  background: rgba(255, 250, 245, 0.8);
+  border: 1px solid #d4c4b4;
+  border-radius: 2px;
+  padding: var(--spacer-lg);
+  margin: var(--spacer-lg) 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+body.theme-cali .folder-group::before {
+  content: attr(data-folder);
+  display: block;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  color: #a89080;
+  font-weight: 500;
+  margin-bottom: var(--spacer-md);
+  padding-bottom: var(--spacer-sm);
+  border-bottom: 1px solid #e8dccf;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.5px;
+}
+
+/* Color variations for different folders */
+body.theme-cali .folder-skiing {
+  background: rgba(230, 245, 255, 0.6);
+  border-color: #a8c5d4;
+}
+
+body.theme-cali .folder-nature {
+  background: rgba(235, 245, 230, 0.6);
+  border-color: #a8d4a8;
+}
+
+body.theme-cali .folder-travel {
+  background: rgba(255, 250, 235, 0.6);
+  border-color: #d4c4a8;
+}
